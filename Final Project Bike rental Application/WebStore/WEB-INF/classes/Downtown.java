@@ -1,4 +1,4 @@
-import java.io.IOException;
+/Your API/import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
@@ -71,7 +71,7 @@ public class Downtown extends HttpServlet {
 
 
 		pw.print("</script>");
-		pw.print("<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBTRNHiXrK5nGsKp9J0GDAtebZvmbZShts&callback=myMap'></script>");
+		pw.print("<script async defer src='https://maps.googleapis.com/maps/api/js?key=/Your API/s&callback=myMap'></script>");
 		pw.print("<div class='entry'>"
 				+ "<div id='googleMap' style='width:100%;height:400px;'></div></div>"
 				//+ "<tr><td><input type='submit' class='btnbuy' name='button' value='Trending' style = 'font-size:50px'></input>"
