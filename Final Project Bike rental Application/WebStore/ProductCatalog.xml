@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+    <bike id="road">
+        <name>Road Bikes</name>
+        <price>9.99</price>
+        <image>road.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <Hrprice>6.99</Hrprice>
+        <Fullprice>30.99</Fullprice>
+        <discount>40.0</discount>
+        <inventory>20</inventory>
+    </bike>
+    <bike id="mountain">
+        <name>Mountain Bikes</name>
+        <price>7.99</price>
+        <image>mountain.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Used</condition>
+        <discount>20.0</discount>
+        <Hrprice>6.99</Hrprice>
+        <Fullprice>30.99</Fullprice>
+        <inventory>20</inventory>
+    </bike>
+    <bike id="city">
+        <name>City Bikes</name>
+        <price>8.99</price>
+        <image>city.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+        <Hrprice>6.99</Hrprice>
+        <Fullprice>30.99</Fullprice>
+        <inventory>20</inventory>
+    </bike>
+    <bike id="Touring">
+        <name>Touring Bikes</name>
+        <price>9.99</price>
+        <image>touring.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+        <Hrprice>6.99</Hrprice>
+        <Fullprice>30.99</Fullprice>
+        <inventory>20</inventory>
+    </bike>
+    <bike id="cyclocross">
+        <name>Cyclocross Bikes</name>
+        <price>10.99</price>
+        <image>cyclocross.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+        <Hrprice>6.99</Hrprice>
+        <Fullprice>30.99</Fullprice>
+        <inventory>20</inventory>
+    </bike>
+
+
+
+
+
+<Accessory id="s1">
+        <name>Mini Water Bottle</name>
+        <price>19.99</price>
+        <image>acc1.png</image>
+        <manufacturer>ElectronicArts</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</Accessory>
+<Accessory id="s2">
+        <name>Bottle Holder</name>
+        <price>39.99</price>
+        <image>acc2.png</image>
+        <manufacturer>ElectronicArts</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</Accessory>
+<Accessory id="s3">
+        <name>U Lock</name>
+        <price>24.99</price>
+        <image>acc3.png</image>
+        <manufacturer>Activision</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</Accessory>
+<Accessory id="s4">
+        <name>Helmet</name>
+        <price>89.99</price>
+        <image>acc4.png</image>
+        <manufacturer>TakeTwoInteractive</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</Accessory>
+<Accessory id="s5">
+        <name>Hand Gloves</name>
+        <price>39.99</price>
+        <image>acc5.png</image>
+        <manufacturer>TakeTwoInteractive</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</Accessory>
+
+</ProductCatalog>

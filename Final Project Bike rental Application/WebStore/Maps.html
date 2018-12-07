@@ -1,0 +1,59 @@
+<style>
+.mySlides {display: none;}
+	</style>
+  <div id="content" style="color:black;font-family: 'Trebuchet MS', Helvetica, sans-serif;" >
+	<div class="post" >
+		<h2 class="title">
+			<p style="color:black;font-family: 'Trebuchet MS', Helvetica, sans-serif;">Welcome to Bike2Go</p>
+		</h2>
+		<!-- <div class="entry">
+			<img src="images/laptop/1.png"
+				style="width: 600px; display: block; margin-left: auto; margin-right: auto" />
+			<br> <br>
+			<h2>The world trusts us to deliver SPEEDY service for video-gaming fans</h2>
+			<br> <br>
+			<h1>We beat our competitors in all aspects. Price-Match Guaranteed</h2>
+		</div>
+	</div> -->
+<script>
+function myMap() {
+	// The location of Uluru
+var uluru = {lat: 41.8403, lng: -87.6137};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+		document.getElementById('googleMap'), {zoom: 6, center: uluru});
+// The marker, positioned at Uluru
+//var marker = new google.maps.Marker({position: uluru, map: map});
+var locations = [
+    ['Downtown', 41.8757, -87.6243],
+    ['Indiana', 39.7689, -86.1599],
+    ['Aurora', 41.7590, -88.3159],
+
+  ];
+	var infowindow =  new google.maps.InfoWindow({});
+	var marker, count;
+	for (count = 0; count < locations.length; count++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+      map: map,
+      title: locations[count][0]
+    });
+google.maps.event.addListener(marker, 'click', (function (marker, count) {
+      return function () {
+        infowindow.setContent(locations[count][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, count));
+  }
+}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTRNHiXrK5nGsKp9J0GDAtebZvmbZShts&callback=myMap"></script>
+			<div class="entry">
+<div id="googleMap" style="width:100%;height:400px;"></div>
+		</div>
+
+	</div>
+	</div>
+</div>
+</div>
+<!-- end #content -->

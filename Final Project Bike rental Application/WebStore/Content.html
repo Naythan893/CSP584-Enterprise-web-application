@@ -1,0 +1,102 @@
+<style>
+.mySlides {display: none;}
+	</style><div id="content" style="color:black;font-family: 'Trebuchet MS', Helvetica, sans-serif;align='left'" >
+	<div class="post" style='padding:0px'>
+		<h2 class="title">
+			<p style="color:black;font-family: 'Trebuchet MS', Helvetica, sans-serif;">Welcome to Bike2Go</p>
+		</h2>
+		<!-- <div class="entry">
+			<img src="images/laptop/1.png"
+				style="width: 600px; display: block; margin-left: auto; margin-right: auto" />
+			<br> <br>
+			<h2>The world trusts us to deliver SPEEDY service for video-gaming fans</h2>
+			<br> <br>
+			<h1>We beat our competitors in all aspects. Price-Match Guaranteed</h2>
+		</div>
+	</div> -->
+	<div class="post" style="font-family: 'Trebuchet MS', Helvetica, sans-serif; align:right;">
+		<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="/WebStore/images/slider1.PNG" style="width:100%">
+  <img class="mySlides" src="/WebStore/images/slider2.PNG" style="width:100%">
+  <img class="mySlides" src="/WebStore/images/slider3.PNG" style="width:100%">
+	<img class="mySlides" src="/WebStore/images/slider4.PNG" style="width:100%">
+	<img class="mySlides" src="/WebStore/images/slider5.PNG" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+		for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+
+</script>
+
+			<div class="entry">
+<!--<form>
+                <legend><h3>Check Bike Availability</h3></legend>
+                <form action="#" method="get">
+                    <table cellspacing="0" style="width:50%">
+
+                        <tr>
+													<td><p><label for="Pickup">Pickup location</label>
+													<select name="PickUp Location">
+														<option value="AllLocation" selected>All Location</option>
+														<option value="Down">Downtown</option>
+														<option value="31" > 31st Street</option>
+														<option value="UC" >United Center</option>
+													</select>
+														</td>
+                            <td><p><label for="name">Pickup Date:</label>
+                            <input name="name" id="name" value="" type="date"/></p>
+                              </td>
+                        </tr>
+                        <tr>
+                            <td><p><label for="age">Select Age:</label><br>
+                            <select name="age">
+                              <option value="allAge" selected>All age</option>
+                              <option value="less10" >< 10</option>
+                              <option value="10to15" >10-15</option>
+                              <option value="16to25" >16-25</option>
+                              <option value="25plus" >25+</option>
+                            </select>
+                              </td>
+                            <td><p>
+                              <label for="bikeTypes">Bike Type:</label><br>
+                                <select name="bikeTypes">
+                                  <option value="AllTypes" selected>All Types</option>
+                                  <option value="Electric">Road Bikes</option>
+                                  <option value="Road">Cyclocross Bikes</option>
+                                  <option value="Mountain">Touring Bikes</option>
+                                  <option value="Fat">Mountain Bikes</option>
+                                  <option value="Kids">City Bikes</option>
+                                </select></td>
+                          <td align="center">
+                            <p>
+                            <input name="send"  class="formbutton" value="Search" type="submit">
+                            </p>
+                          </td>
+                        </tr>
+                    </table>
+                </form>
+            </form> -->
+
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+<!-- end #content -->
